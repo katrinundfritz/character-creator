@@ -9,6 +9,16 @@ body {
   margin: 0;
 }
 
+h2 {
+  font-size: 1.2em;
+}
+
+@media only screen and (min-width: 600px) {
+  h2 {
+    font-size: 1.5em;
+  }
+}
+
 *,
 *:before,
 *:after {
